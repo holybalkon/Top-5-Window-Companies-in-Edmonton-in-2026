@@ -1,0 +1,5 @@
+# Top 5 Window Companies in Edmonton in 2026
+User-agent: *
+Allow: /
+
+Sitemap: https://top5windowsedmonton.ca/sitemap.xml
