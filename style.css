@@ -100,6 +100,25 @@ tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
 @media (max-width:720px){.map-section{grid-template-columns:1fr}.map-embed,.map-embed iframe{min-height:300px}}
 details.sources{margin-top:12px;font-size:.92rem}
 details.sources summary{cursor:pointer;font-weight:600}
+.why-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:20px}
+.why-card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-top:4px solid #3d6b14;border-radius:20px;padding:22px 24px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.why-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(14,26,16,.12);border-top-color:var(--lime-d)}
+.why-num{font-size:.85rem;font-weight:800;letter-spacing:.1em;color:var(--dark);background:var(--lime);border-radius:99px;padding:2px 12px;align-self:flex-start;margin-bottom:12px}
+.why-card h3{margin:0 0 8px}
+.why-card p{margin:0 0 12px}
+.why-card .why-tip{margin:auto 0 0;padding-top:12px;border-top:1px dashed var(--line);font-size:.9rem;color:var(--muted)}
+.why-card .why-tip strong{color:#3d6b14}
+.cost-sub{margin:22px 0 10px}
+.cost-chips{list-style:none;display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0 0 24px}
+.cost-chips li{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:.92rem;font-weight:600}
+.cost-card{background:var(--dark);color:var(--on-dark);border-left:6px solid var(--lime);border-radius:20px;padding:26px 28px}
+.cost-card h3{color:#fff;margin:0 0 10px}
+.cost-card p{color:var(--on-dark)}
+.cost-card a{color:var(--lime)}
+.cost-checklist{list-style:none;padding:0;margin:12px 0 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px 16px}
+.cost-checklist li{position:relative;padding-left:26px}
+.cost-checklist li::before{content:"\2713";position:absolute;left:0;top:1px;width:18px;height:18px;border-radius:50%;background:var(--lime);color:var(--dark);font-size:.75rem;font-weight:800;line-height:18px;text-align:center}
+@media (max-width:720px){.why-grid{grid-template-columns:1fr}.cost-card{padding:20px}}
 .cta-box{background:var(--dark);color:var(--on-dark);border-radius:28px;padding:36px}
 .cta-box p{color:var(--on-dark)}
 .cta-box strong{display:block;font-size:1.7rem;letter-spacing:-.02em;color:#fff}
