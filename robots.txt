@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://top5windowsedmonton.ca/sitemap.xml
+Sitemap: https://topwindowcompaniesedmonton.online/sitemap.xml
